@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/nama_acara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let Sucess Make The Noise"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/tanggal_acara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nov 09 2014"
+            android:textSize="11sp"
+            android:textColor="@color/eventDateColor"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_below="@id/nama_acara"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="solok"
+                    android:textSize="10sp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:background="@color/tagBgColor"
+                    android:layout_marginRight="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="solok"
+                    android:textSize="10sp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:background="@color/tagBgColor"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="This is version of Lorem Ipsum Dolor paragraph. The second sentence of Lorem Ipsum Dolor..."
+            android:paddingRight="20dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gambar_acara"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/tugu_solok_medium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

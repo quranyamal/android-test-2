@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Screening Test</string>
+    <string name="input_nama">masukkan nama...</string>
+    <string name="pilih_event">pilih event</string>
+    <string name="pilih_guest">pilih guest</string>
+    <string name="nama_menu">Nama</string>
+    <string name="home_next_button">Selesai</string>
+    <string name="welcome_text">Selamat datang!</string>
+    <string name="add_photo_text">Sertakan gambar profil Anda untuk melengkapi profil.</string>
+</resources>

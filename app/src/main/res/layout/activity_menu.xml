@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.suitschool.screeningtest.MenuActivity">
+
+    <TextView
+        android:id="@+id/menu_nama_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_menu"
+        android:textSize="18sp"
+        android:layout_above="@+id/menu_event_button"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/menu_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_event"
+        android:textAllCaps="false"
+        android:layout_above="@+id/menu_guest_button"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickEvent"/>
+
+    <Button
+        android:id="@+id/menu_guest_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_guest"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickGuest"/>
+
+
+
+</RelativeLayout>

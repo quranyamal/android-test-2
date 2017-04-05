@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/btn_back_normal"
+        android:title="back"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/title_event"
+        android:title="                        GUEST                             "
+        app:showAsAction="always"
+        android:actionLayout="@layout/activity_menu"/>
+
+    <item
+        android:id="@+id/action_sync"
+        android:title="sync"
+        android:checkable="false"
+        app:showAsAction="always"
+        android:icon="@android:drawable/stat_notify_sync" />
+
+</menu>

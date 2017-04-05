@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="defaultText">#ffffff</color>
+    <color name="tagBgColor">#aaaadd</color>
+    <color name="eventDateColor">#c5933c</color>
+    <color name="dividertColor">#eee</color>
+</resources>
